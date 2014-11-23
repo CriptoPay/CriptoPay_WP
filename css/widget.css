@@ -1,0 +1,43 @@
+            .cp_w_d{
+                font-family: Arial,sans-serif;
+                font-weight: bolder;
+            }
+            .cp_w_d input,.cp_w_d select,.cp_w_d submit{
+                width:100%;
+                margin-top:1%;margin-bottom:2%;margin-left:0;margin-right:0;
+                padding:2%;
+                border-radius: 5px;
+            }
+            .cp_w_d input[type=submit]{
+                padding:5%;
+                font-size: 1.3em
+            }
+            
+            .cp_w_d #monedas_donacion{
+                list-style: none;
+                margin:0;padding:0;
+            }
+            .cp_w_d #monedas_donacion li{
+                float: left;
+                padding-left: 5%;
+                width:20%;
+            }
+            .cp_w_d #monedas_donacion li img{
+                width: 100%;
+                box-shadow: none;
+            }
+            .cp_w_d #logo{width:100%;margin-top:-40px;box-shadow: none;}
+            
+            .cp_w_d .alert{
+                border:solid 2px;
+                border-radius: 7px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                padding: 5px;
+                text-align: center;
+            }
+            
+            .cp_w_d .alert.error{
+                border: red;
+                background:rgba(255,0,0,0.5);
+            }

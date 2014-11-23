@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    </head>
+    <body>
+        <style type="text/css">
+            .cp_w_d{
+                font-family: Arial,sans-serif;
+                font-weight: bolder;
+            }
+            .cp_w_d input,.cp_w_d select,.cp_w_d submit{
+                width:100%;
+                margin-top:1%;margin-bottom:2%;margin-left:0;margin-right:0;
+                padding:2%;
+                border-radius: 5px;
+            }
+            .cp_w_d input[type=submit]{
+                padding:5%;
+                font-size: 1.3em
+            }
+            
+            .cp_w_d #monedas_donacion{
+                list-style: none;
+                margin:0;padding:0;
+            }
+            .cp_w_d #monedas_donacion li{
+                float: left;
+                padding-left: 5%;
+                width:20%;
+            }
+            .cp_w_d #monedas_donacion li img{
+                width: 100%;
+            }
+            .cp_w_d #logo{width:100%;margin-top:-40px;}
+            
+        </style>
+        <div id="widget" style="width:250px; margin:0 auto">
+            
+            
+            
+<div id="cp_w_d" class="cp_w_d">
+    <label for="cantidad_donacion">Cantidad</label>
+    <input id="cantidad_donacion" type="number" placeholder="10.00">
+    
+    <label for="divisa_donacion">Divisa donación</label>
+    <select id="divisa_donacion" class="divisas">
+        <option value="EUR">Bitcoin</option>
+        <option value="USD">Pesetacoin</option>
+        <option value="BTC">Litecoin</option>
+    </select>
+    
+    <label for="email_donacion">Email</label>
+    <input id="email_donacion" type="email" placeholder="Email">
+
+    
+    <label for="divisa_fiat">Criptomoneda para donar</label>
+    <select class="divisa_fiat">
+        <option value="BTC">Bitcoin</option>
+        <option value="PTC">Pesetacoin</option>
+        <option value="LTC">Litecoin</option>
+    </select>
+    
+    <input type="submit" value="Donar ahora!" />
+    
+    
+    <div id="cp_don_qrcode" title="bitcoin:1j4h3E4nynMBWwMTeqP4fJhQEh3hPkRQb"></div>
+    <ul id="monedas_donacion">
+        <li><img src="https://bitcoin.org/img/opengraph.png" /></li>
+        <li><img src="http://cryptocur.com/wp-content/uploads/2012/11/new_litecoin_logo_large.png" /></li>
+        <li><img src="http://i60.tinypic.com/2e0s9qt.jpg" /></li>
+        <li><img src="http://i60.tinypic.com/2e0s9qt.jpg" /></li>        
+    </ul>
+    <img id="logo" src="https://cripto-pay.com/assets/img/logo.png" width="100%"/>
+</div>
+            
+            </div>
+    </body>
+</html>
