@@ -165,7 +165,7 @@ HTML;
     public function addAdminMenuPage(){        
         add_menu_page("Cripto-Pay.com Donaciones y Pagos", "Cripto-Pay.com", 'manage_options', "CriptoPay", array($this, 'PaginaAdmin'), '','99.87514');
         add_submenu_page("CriptoPay", "Donaciones", "Donaciones", 'manage_options', 'Donaciones', array($this, 'PaginaDonaciones'));
-        add_submenu_page("CriptoPay", "Pagos", "Pagos", 'manage_options', 'Pagos', array($this, 'PaginaPagos'));
+        //add_submenu_page("CriptoPay", "Pagos", "Pagos", 'manage_options', 'Pagos', array($this, 'PaginaPagos'));
     }
     
     

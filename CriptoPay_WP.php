@@ -15,5 +15,5 @@ define("CP_PLUGIN_URL",plugin_dir_url( __FILE__ ));
 //register_activation_hook( __FILE__, array( 'CP_DON_core', 'Plugin_Activar' ) );
 //register_deactivation_hook( __FILE__, array( 'CP_DON_core', 'Plugin_Desactivar' ) );
 
-require_once(CP_DON_PLUGINPATH."/inc/src/CriptoPay_PHP/autoload.php");
+require_once(CP_DON_PLUGINPATH."/inc/CriptoPay_PHP/src/autoload.php");
 require_once(CP_DON_PLUGINPATH."/inc/core.php");
